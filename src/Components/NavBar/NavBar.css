@@ -1,0 +1,26 @@
+#navbar {
+    background-color: #0a1f63;
+}
+
+#icon-link {
+    color: white !important;
+    margin-right: 1rem;
+}
+
+#button {
+    background-color: white;
+    color: #0a1f63;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+@media (max-width: 481px) {
+    #link {
+        font-size: 12px;
+    }
+    #button-group {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,16 @@
+#mediaSize {
+    width: 25%;
+}
+
+
+@media (max-width: 1159px) { 
+    #mediaSize {
+      width: 50%
+    }
+  }
+
+@media (max-width: 481px) {
+#mediaSize {
+    width: 75%
+}
+}

@@ -1,0 +1,15 @@
+#container {
+    position: relative;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+#link {
+    font-weight: bold;
+    color: #0a1f63;
+    text-decoration: none;
+}
+
+#button {
+    background-color: whitesmoke;
+}

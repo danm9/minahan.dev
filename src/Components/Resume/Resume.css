@@ -1,0 +1,72 @@
+#container {
+    position: relative;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+td {
+    vertical-align: middle;
+    
+}
+
+a, strong {
+    color: #0a1f63 !important;
+    text-decoration: none !important;
+    font-weight: bold;
+}
+
+.card {
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: #ebebee !important;
+    border-radius: 10px !important;
+    box-shadow: 2px 2px #ebebee;
+    padding: 5px;
+}
+
+#logo {
+    height: 1.75rem;
+}
+
+#headshot {
+    height: 10rem;
+    border-style: solid !important;
+    border-radius: 50%;
+    box-shadow: 3px 3px #d9d9db;
+}
+
+.row {
+    margin-bottom: .5rem;
+}
+
+.column-flex {
+    flex-shrink: auto;
+}
+
+.card-text, li {
+    font-size: 14px;
+    margin: 0;
+}
+
+#location-date {
+    margin-left: 10px;
+    padding-right: 24px;
+}
+
+#college-name {
+    font-size: 12px;
+}
+
+#college-container {
+    margin-left: .5rem !important;
+}
+
+#freepik {
+    bottom: 0;
+}
+
+#three-col {
+    columns: 3 auto;
+    /* display: flex;
+    flex-direction: column-reverse; */
+}
