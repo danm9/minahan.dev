@@ -2,6 +2,7 @@
     position: relative;
     min-height: 100vh;
     background-color: whitesmoke;
+    padding-bottom: 1rem;
 }
 
 td {
@@ -67,6 +68,4 @@ a, strong {
 
 #three-col {
     columns: 3 auto;
-    /* display: flex;
-    flex-direction: column-reverse; */
 }

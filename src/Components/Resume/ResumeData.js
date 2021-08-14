@@ -49,10 +49,8 @@ export const skillsData = [
 
 export const programmingData = [
     Logo.Python,
-    Logo.JavaScript, 
     Logo.Java,
-    Logo.HTML,
-    Logo.CSS,
+    Logo.HTMLCSSJS,
     Logo.NodeJS,
     Logo.VSCode,
     Logo.Bootstrap,
@@ -64,7 +62,9 @@ export const programmingData = [
     Logo.SQLite,
     Logo.MySQLWorkbench,
     Logo.Spring,
-    Logo.Git
+    Logo.Git,
+    Logo.Eclipse,
+    Logo.Netlify
 ];
 
 export const toolsData = [
@@ -96,11 +96,11 @@ export const experienceData = [
         ]
     },
     {
-        "Company": "Boston University Metropolitan College",
+        "Company": "Boston University",
         "Position": "Course Facilitator",
         "Location": "Remote",
         "Date": "May 2018 - Present",
-        "Logo": Logo.BU,
+        "Logo": Logo.BuMet,
         "Description": [
             <li>Course Facilitator for AD649 Agile Project Management and CS634 Agile Software Development.</li>
         ]    
@@ -138,7 +138,7 @@ export const experienceData = [
         ]    
     },
     {
-        "Company": "Booz Allen Hamilton",
+        "Company": "Booz | Allen | Hamilton",
         "Position": "Lead Associate",
         "Location": "Augusta, GA",
         "Date": "December 2011 – October 2016 ",

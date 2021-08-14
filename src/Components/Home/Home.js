@@ -3,7 +3,7 @@ import { NavBar } from "../NavBar/NavBar";
 import { MinahanCarousel } from "../Images/Carousel/MinahanCarousel";
 import { Footer } from "../Footer/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAddressCard, faFileAlt, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
+import Icon from "../Images/Icons/Icon.js"
 import './Home.css';
 
 export function Home() {
@@ -27,7 +27,7 @@ export function Home() {
                         <FontAwesomeIcon size="5x"
                             style={{color: "#0a1f63"}}
                             className="mx-auto"
-                            icon={faFileAlt}
+                            icon={Icon.FileAlt}
                         />
                         <h3>RESUME</h3>
                     </a>
@@ -35,7 +35,7 @@ export function Home() {
                         <FontAwesomeIcon size="5x"
                             style={{color: "#0a1f63"}}
                             className="mx-auto"
-                            icon={faLaptopCode}
+                            icon={Icon.LaptopCode}
                         />
                         <h3>PORTFOLIO</h3>
                     </a>
@@ -45,4 +45,4 @@ export function Home() {
             <Footer />
         </>
     );
-}
+} 

@@ -15,7 +15,6 @@ export function Resume() {
             style={{
                 color: "0a1f63",
                 backgroundColor: "0a1f63",
-                width: "225px",
                 height: "1px",
             }}
         />
@@ -69,6 +68,7 @@ export function Resume() {
                     <div className="d-flex align-items-center flex-column">
                         <Image className="mt-2" id="headshot" src={Headshot}/>
                         <h1 className="mb-3">Dan's Resume</h1>
+                        
                         {/* Education, Skills, Programming, & Tools Section */}
                         <div className="d-flex">
                             <div className="align-self-start">
@@ -118,7 +118,58 @@ export function Resume() {
             </BrowserView>
 
             <MobileView>
+                <NavBar />
+                <div id="container">
+                    <div className="d-flex align-items-center flex-column">
+                        <Image className="mt-2" id="headshot" src={Headshot}/>
+                        <h1 className="mb-3">Dan's Resume</h1>
+                        
+                        {/* Education, Skills, Programming, & Tools Section */}
+                        <div className="">
+                            <div className="align-self-start">
+                                {resumeItems.map(item => (
+                                    <Card className="mb-2" style={{width: "350px", marginRight: "1rem"}}> 
+                                        <Card.Body>
+                                            <Card.Title>{item.Title}</Card.Title>
+                                            <ColoredLine />
+                                            <div id={item.Style}>
+                                                {item.Items}
+                                            </div>
+                                        </Card.Body>
+                                    </Card>
+                                ))}
+                            </div>
 
+                            {/* Experience Section */}
+                            <div className="align-self-start">
+                                <Card style={{width: "350px"}}> 
+                                    <Card.Body>
+                                        <Card.Title>Experience</Card.Title>
+                                        <ColoredLine />
+                                        {experienceData.map(item => (
+                                            <div className="d-flex flex-column mb-2">
+                                                <div className="mb-2">
+                                                    <Card.Text className="mb-1" id="company-name"><Image id="logo" src={item.Logo}/> <a href="https://www.redhat.com"> {item.Company}</a></Card.Text>
+                                                    <Card.Text>{item.Position}</Card.Text>
+                                                </div>
+                                                <div className="d-flex justify-content-between mb-2">
+                                                    <Card.Text><FontAwesomeIcon size="1x" icon={Icon.MapMarked}/> {item.Location}</Card.Text>
+                                                    <Card.Text><FontAwesomeIcon size="1x" icon={Icon.CalendarAlt}/> {item.Date}</Card.Text>
+                                                </div>
+                                                <div>
+                                                    <ul>
+                                                        {item.Description}
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        ))}
+                                    </Card.Body>
+                                </Card>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <Footer />
             </MobileView>
         </>
     );

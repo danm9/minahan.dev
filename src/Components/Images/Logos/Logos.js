@@ -1,14 +1,13 @@
 import AWS from "./AWS.png";
 import AzureDevops from "./AzureDevops.png";
 import Bootstrap  from "./Bootstrap.png";
-import CSS  from "./css.png";
 import DBbrowser  from "./dbbrowser.png";
 import Eclipse from "./eclipse.png";
 import Fedora from "./Fedora.png";
 import Flask from "./Flask.png";
 import Github from "./github.png";
 import Heroku from "./Heroku.png";
-import HTML from "./html-5.png";
+import HTMLCSSJS from "./HTMLCSSJS.png";
 import Java from "./Java.png";
 import JavaScript from "./JavaScript.png";
 import Jira from "./Jira.png";
@@ -42,6 +41,7 @@ import UoP from "./UoP.png";
 import Zapata from "./Zapata.png";
 import Spring from "./Spring.png";
 import Git from "./Git.png";
+import Netlify from "./Netlify.png";
 
 const Logo = {
     "AWS": AWS,
@@ -54,7 +54,7 @@ const Logo = {
     "Flask": Flask,
     "Github": Github,
     "Heroku": Heroku,
-    "HTML": HTML,
+    "HTMLCSSJS": HTMLCSSJS,
     "Java": Java,
     "JavaScript": JavaScript,
     "Jira": Jira,
@@ -87,7 +87,8 @@ const Logo = {
     "UoP": UoP,
     "Zapata": Zapata,
     "Spring": Spring,
-    "Git": Git
+    "Git": Git,
+    "Netlify": Netlify
     }
 
 export default Logo;
