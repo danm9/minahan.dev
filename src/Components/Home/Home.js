@@ -23,7 +23,7 @@ export function Home() {
                 </div>
 
                 <div id="button-group" className="d-flex justify-content-evenly align-center mt-5 pb-3">
-                    <a id="button" href="/about" className="text-center">
+                    <a id="button" href="/resume" className="text-center">
                         <FontAwesomeIcon size="5x"
                             style={{color: "#0a1f63"}}
                             className="mx-auto"
@@ -31,7 +31,7 @@ export function Home() {
                         />
                         <h3>RESUME</h3>
                     </a>
-                    <a id="button" href="/about" className="text-center">
+                    <a id="button" href="/portfolio" className="text-center">
                         <FontAwesomeIcon size="5x"
                             style={{color: "#0a1f63"}}
                             className="mx-auto"
