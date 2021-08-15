@@ -28,7 +28,7 @@ export const projectData = [
     },
     {
         "Project": "Blue Sky App",
-        "Description": "For our Capstone at UGA, we have been working on a web application and mobile web application that will help Blue Sky Commericial and Residential Cleaning. The application is not done, it's in active development.",
+        "Description": "For our Capstone at UGA, we have been working on a web application and mobile web application that will help Blue Sky Commericial and Residential Cleaning. The application is not done, it's in active development. My team and I created a React Frontend, Spring backend that's set up as an API, and the API is connected to a MySQL database. For our Database, we are using AWS RDS for now.",
         "Technologies": [
             <Image id="logo" src={Logo.HTMLCSSJS}/>,
             <Image id="logo" src={Logo.React}/>,

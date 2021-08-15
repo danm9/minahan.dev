@@ -42,6 +42,9 @@ import Zapata from "./Zapata.png";
 import Spring from "./Spring.png";
 import Git from "./Git.png";
 import Netlify from "./Netlify.png";
+import PMP from "./PMP.png";
+import PMIACP from "./PMIACP.png";
+import IPMA from "./IPMA.png";
 
 const Logo = {
     "AWS": AWS,
@@ -88,7 +91,11 @@ const Logo = {
     "Zapata": Zapata,
     "Spring": Spring,
     "Git": Git,
-    "Netlify": Netlify
+    "Netlify": Netlify,
+    "PMP": PMP,
+    "PMIACP": PMIACP,
+    "IPMA": IPMA,
+
     }
 
 export default Logo;

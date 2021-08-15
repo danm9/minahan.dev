@@ -4,7 +4,6 @@ import DanBennett from "./DanBennett.png";
 import DanCalla from "./DanCalla.png";
 import DanEvie from "./DanEvie.png";
 import Family from "./Family.png";
-import FamilyBeach from "./FamilyBeach.png"; 
 import Kids from "./Kids.png";
 import KrystieDan from "./KrystieDan.png";
 import KrystieDan2 from "./KrystieDan2.png";

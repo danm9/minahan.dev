@@ -3,7 +3,7 @@ import { NavBar } from "../NavBar/NavBar";
 import { Footer } from "../Footer/Footer";
 import Icon from "../Images/Icons/Icon.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Card, Container, Row, Col} from "react-bootstrap";
+import { Card, Container, Row, Col } from "react-bootstrap";
 import { projectData } from "./PortfolioData";
 import './Portfolio.css';
 
@@ -50,6 +50,7 @@ export function Portfolio() {
                                             <ColoredLine />
 
                                             <Card.Text>{item.Description}</Card.Text>
+
                                             <div className="d-flex justify-content-evenly mt-3">
                                                 {item.Technologies}
                                             </div> 

@@ -62,10 +62,46 @@ a, strong {
     margin-left: .5rem !important;
 }
 
-#freepik {
-    bottom: 0;
-}
-
 #three-col {
     columns: 3 auto;
+}
+
+#educationVolunteer {
+    display: flex;
+}
+
+.columnA-display-size {
+    width: 275px;
+    margin-right: 1rem;
+}
+
+.columnB-display-size {
+    width: 700px;
+    margin-right: 1rem;
+}
+
+#education-experience {
+    display: flex;
+}
+
+@media (max-width: 1024px) {
+    .columnB-display-size {
+        width: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    #education-experience{
+        display: inline;
+        margin: 0 auto;
+    }
+
+    .columnA-display-size {
+        width: 366px;
+    }
+    .columnB-display-size {
+        width: 366px;
+    }
+
+
 }
