@@ -4,9 +4,9 @@ import './Footer.css';
 export function Footer() {
 
   return (
-        <div id="footer-container">
-            <p className="text-white pt-3">
-                Copyright © 2021 Minahan.Dev. All Rights Reserved
+        <div className="d-flex align-items-center justify-content-center" id="footer-container">
+            <p className="text-white">
+                <strong className="text-white">M.D</strong> This website was built for an online Resume and Platform to host my Portfolio
             </p>
         </div>
   );

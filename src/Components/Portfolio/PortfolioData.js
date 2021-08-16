@@ -4,12 +4,13 @@ import { Image } from "react-bootstrap";
 export const projectData = [
     {
         "Project": "Minahan.dev - This site",
-        "Description": "This site was created for my personal work.",
+        "Description": "This site was created for my personal work. I am using React on the frontend and hosting the site on Netlify.",
         "Technologies": [
-            <Image id="logo" src={Logo.HTMLCSSJS}/>,
+            <Image id="logo" src={Logo.React}/>,
             <Image id="logo" src={Logo.Bootstrap}/>,
             <Image id="logo" src={Logo.Github}/>,
-            <Image id="logo" src={Logo.VSCode}/>
+            <Image id="logo" src={Logo.VSCode}/>,
+            <Image id="logo" src={Logo.Netlify}/>
         ],
         "Github": "https://github.com/danm9/minahan.dev",
         "URL": "https://danm9.github.io/minahan.dev/",
@@ -30,7 +31,6 @@ export const projectData = [
         "Project": "Blue Sky App",
         "Description": "For our Capstone at UGA, we have been working on a web application and mobile web application that will help Blue Sky Commericial and Residential Cleaning. The application is not done, it's in active development. My team and I created a React Frontend, Spring backend that's set up as an API, and the API is connected to a MySQL database. For our Database, we are using AWS RDS for now.",
         "Technologies": [
-            <Image id="logo" src={Logo.HTMLCSSJS}/>,
             <Image id="logo" src={Logo.React}/>,
             <Image id="logo" src={Logo.Java}/>,
             <Image id="logo" src={Logo.Spring}/>,
