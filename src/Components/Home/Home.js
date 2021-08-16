@@ -1,4 +1,5 @@
 import React from "react";
+import MetaTags from "react-meta-tags";
 import { NavBar } from "../NavBar/NavBar";
 import { MinahanCarousel } from "../Images/Carousel/MinahanCarousel";
 import { Footer } from "../Footer/Footer";
@@ -7,8 +8,17 @@ import Icon from "../Images/Icons/Icon.js"
 import './Home.css';
 
 export function Home() {
+
+    
     return (
         <>
+            <MetaTags>
+                <title>Home</title>
+                <meta name="description" content="This Website is designed to show Dan Minahan's Resume and Portfolio. Enjoy!" />
+                <meta property="og:title" content="Home" />
+                <meta property="og:image" content="../Images/Headshot.png" />
+            </MetaTags>
+
             <NavBar />
             <div id="container">
                 <div className="d-flex align-items-center flex-column">
