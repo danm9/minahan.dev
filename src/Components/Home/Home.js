@@ -12,7 +12,7 @@ export function Home() {
             <NavBar />
             <div id="container">
                 <div className="d-flex align-items-center flex-column">
-                    <h1 className="mt-3 mb-3">Welcome to Dan's Page!</h1>
+                    <h1 className="mt-3 mb-3 fw-bold">Welcome to Dan's Page!</h1>
                     <MinahanCarousel />
                     <p className="w-50 text-center mt-3" style={{fontSize: "16px"}}>
                         I am a family man, lover of all New England sports, educational enthusiast, 

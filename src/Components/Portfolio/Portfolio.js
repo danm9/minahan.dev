@@ -24,7 +24,7 @@ export function Portfolio() {
             <NavBar />
             <div id="container">
                 <div className="d-flex align-items-center flex-column">
-                    <h1 className="mb-3">Dan's Portfolio</h1>
+                    <h1 className="mb-3 fw-bold">Dan's Portfolio</h1>
                     <Container>
                         <Row>
                             {projectData.map(item => (
