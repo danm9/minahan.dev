@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Nav, Container} from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Icon from "../Images/Icons/Icon.js"
-
+import Login from "../Login/Login.js"
 import './NavBar.css';
 
 export function NavBar() {
@@ -27,9 +27,7 @@ export function NavBar() {
                         icon={Icon.Linkedin}
                     />
                 </a>
-
             </Container>
-
         </Navbar>
     );
 }

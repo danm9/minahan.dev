@@ -42,14 +42,14 @@ export function Resume() {
     const Programming =
         programmingData.map(item => (
                 <Row>
-                    <Col><Image id="logo" src={item}/></Col>
+                    <Col className="d-flex justify-content-center"><Image id="logo" src={item}/></Col>
                 </Row>
         ))
 
     const Tools = 
         toolsData.map(item => (
                 <Row>
-                    <Col><Image id="logo" src={item}/></Col>
+                    <Col className="d-flex justify-content-center"><Image id="logo" src={item}/></Col>
                 </Row>
         ))
 
