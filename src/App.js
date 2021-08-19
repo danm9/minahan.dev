@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { Home } from "./Components/Home/Home.js";
 import { Portfolio } from "./Components/Portfolio/Portfolio.js";
 import { Resume } from "./Components/Resume/Resume.js";
-import { Login } from "./Components/Login/LoginPage.js";
+import { LoginPage } from "./Components/Login/LoginPage.js";
 import { Admin } from "./Components/Admin/Admin.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -19,7 +19,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route path="/admin" component={Admin} />
-        <Route path="/admin" component={Login} />
+        <Route path="/LoginPage" component={LoginPage} />
         <Route path="/resume" component={Resume} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/" component={Home} />

@@ -28,7 +28,7 @@ export function Portfolio() {
                     <Container>
                         <Row>
                             {projectData.map(item => (
-                                <Col className="d-flex justify-content-around align-self-start">
+                                <Col className="d-flex justify-content-around align-self-center">
                                     <Card className="mb-3" style={{width: "400px"}}> 
                                         <Card.Body>
                                             <div className="d-flex">

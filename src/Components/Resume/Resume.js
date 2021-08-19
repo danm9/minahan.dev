@@ -6,7 +6,7 @@ import Icon from "../Images/Icons/Icon.js"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Image, Container, Card, Col, Row} from "react-bootstrap";
 import Headshot from "../Images/Headshot.png";
-import { experienceData, volunteerData, toolsData, programmingData, educationData, skillsData } from "./ResumeData";
+import { experienceData, volunteerData, toolsData, programmingData, educationData, certificationData, skillsData } from "./ResumeData";
 import './Resume.css';
 
 export function Resume() { 
@@ -25,8 +25,19 @@ export function Resume() {
             <div className="d-flex">
                 <Image id="logo" src={item.Logo}/>
                 <div id="college-container" className="d-flex flex-column">
-                    <Card.Text><a href="https://www.uga.edu/">{item.College}</a></Card.Text>
+                    <Card.Text><a href={item.URL}>{item.College}</a></Card.Text>
                     <Card.Text className="mb-2" id="college-name">{item.Program}</Card.Text>
+                </div>
+            </div>
+        ))
+
+    const Certification =
+        certificationData.map(item => (
+            <div className="d-flex">
+                <Image id="logo" src={item.Logo}/>
+                <div id="college-container" className="d-flex flex-column">
+                    <Card.Text><a href={item.URL}>{item.Provider}</a></Card.Text>
+                    <Card.Text className="mb-2" id="college-name">{item.Certification}</Card.Text>
                 </div>
             </div>
         ))
@@ -54,7 +65,8 @@ export function Resume() {
         ))
 
     const resumeItems = [
-        { "Title": "Education", "Items": Education,"Style": ""},
+        {"Title": "Education", "Items": Education,"Style": ""},
+        {"Title": "Certification", "Items": Certification,"Style": ""},
         {"Title": "Skills", "Items": Skills, "Style": ""},
         {"Title": "Programming", "Items": Programming, "Style": "three-col"},
         {"Title": "Tools", "Items": Tools, "Style": "three-col"}

@@ -3,19 +3,19 @@ import Icon from "../Images/Icons/Icon.js";
 
 export const educationData = [
     {
-        "College": "University of Georgia",
-        "Program": "Master of Business & Technology (2022)",
+        "College": "University of Georgia (2022)",
+        "Program": "Master of Business & Technology",
         "Logo": Logo.UGA,
         "URL": "www.uga.edu",
     },
     {
-        "College": "Boston University",
+        "College": "Boston University '16",
         "Program": "MS, Project Management",
         "Logo": Logo.BU,
         "URL": "www.bu.edu",
     },
     {
-        "College": "University of Phoenix",
+        "College": "University of Phoenix '14",
         "Program": "BS, Business",
         "Logo": Logo.UoP,
         "URL": "www.phoenix.edu",
