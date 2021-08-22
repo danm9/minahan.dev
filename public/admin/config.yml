@@ -55,6 +55,7 @@ collections:
   - label: "Education"
     name: "education"
     folder: "site/content"
+    create: true
     widget: "list"
     fields:
       - {label: College, name: college, widget: string, default: "University"}
