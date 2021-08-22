@@ -3,25 +3,28 @@ import Icon from "../Images/Icons/Icon.js";
 
 export const educationData = [
     {
-        "College": "University of Georgia (2022)",
-        "Program": "Master of Business & Technology",
-        "Logo": Logo.UGA,
-        "URL": "www.uga.edu",
+        College: "University of Georgia (2022)",
+        Program: "Master of Business & Technology",
+        Logo: Logo.UGA,
+        URL: "www.uga.edu",
     },
     {
-        "College": "Boston University '16",
-        "Program": "MS, Project Management",
-        "Logo": Logo.BU,
-        "URL": "www.bu.edu",
+        College: "Boston University '16",
+        Program: "MS, Project Management",
+        Logo: Logo.BU,
+        URL: "www.bu.edu",
     },
     {
-        "College": "University of Phoenix '14",
-        "Program": "BS, Business",
-        "Logo": Logo.UoP,
-        "URL": "www.phoenix.edu",
+        College: "University of Phoenix '14",
+        Program: "BS, Business",
+        Logo: Logo.UoP,
+        URL: "www.phoenix.edu",
     }
-
 ]
+
+export const deleteEducationItem = () => {
+    delete educationData.College
+} 
 
 export const certificationData = [
     {
@@ -230,3 +233,24 @@ export const volunteerData = [
         "URL": "https://www.ipma-usa.org/"
     }
 ]
+
+
+
+// {
+//     "College": "University of Georgia (2022)",
+//     "Program": "Master of Business & Technology",
+//     "Logo": Logo.UGA,
+//     "URL": "www.uga.edu",
+// },
+// {
+//     "College": "Boston University '16",
+//     "Program": "MS, Project Management",
+//     "Logo": Logo.BU,
+//     "URL": "www.bu.edu",
+// },
+// {
+//     "College": "University of Phoenix '14",
+//     "Program": "BS, Business",
+//     "Logo": Logo.UoP,
+//     "URL": "www.phoenix.edu",
+// }
