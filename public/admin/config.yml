@@ -7,8 +7,6 @@ media_libray:
   name: uploads
 public_folder: "/images"
 
-
-
 collections:
   # - name: "blog" # Used in routes, e.g., /admin/collections/blog
   #   label: "Blog" # Used in the UI
@@ -54,9 +52,10 @@ collections:
 
   - label: "Education"
     name: "education"
-    folder: "site/content"
+    folder: "site/content/education"
     create: true
     widget: "list"
     fields:
-      - {label: College, name: college, widget: string, default: "University"}
-      - {label: Program, name: program, widget: string, default: "Emmet"}
+      - {label: "College", name: college, widget: string, default: "University or College"}
+      - {label: "Program", name: program, widget: string, default: "e.g., MBA"}
+      - {label: "College Image", name: "thumbnail", widget: "image"}
