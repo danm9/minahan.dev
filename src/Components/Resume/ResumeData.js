@@ -22,10 +22,6 @@ export const educationData = [
     }
 ]
 
-export const deleteEducationItem = () => {
-    delete educationData.College
-} 
-
 export const certificationData = [
     {
         "Provider": "Project Management Institute",
@@ -154,7 +150,7 @@ export const experienceData = [
     },
     {
         "Company": "Minutemen Consulting Group",
-        "Position": "Senior Program Manager",
+        "Position": "President & Founder",
         "Location": "Evans, GA",
         "Date": "July 2016 – July 2018",
         "Logo": Logo.Minutemen,

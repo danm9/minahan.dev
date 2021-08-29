@@ -106,8 +106,8 @@ export function Resume() {
                                         {experienceData.map(item => (
                                             <div>
                                                 <Container className="d-flex justify-content-between">
-                                                    <Card.Text className="mb-1" id="company-name"><Image id="logo" src={item.Logo}/> <a href="https://www.redhat.com"> {item.Company}</a></Card.Text>
-                                                    <Card.Text>{item.Position}</Card.Text>
+                                                    <Card.Text className="mb-1" id="company-name"><Image id="logo" src={item.Logo}/> <a href={item.URL}> {item.Company}</a></Card.Text>
+                                                    <Card.Text><strong>{item.Position}</strong></Card.Text>
                                                 </Container>
                                                 <Container className="d-flex justify-content-between" id="location-date">
                                                     <Card.Text><FontAwesomeIcon size="1x" icon={Icon.MapMarked}/> {item.Location}</Card.Text>
@@ -124,12 +124,12 @@ export function Resume() {
                                 </Card>
                                 <Card className="mb-2 columnB-display-size"> 
                                     <Card.Body>
-                                        <Card.Title>Volunteerism</Card.Title>
+                                        <Card.Title>Volunteer Experience</Card.Title>
                                         <ColoredLine />
                                         {volunteerData.map(item => (
                                             <div>
                                                 <Container className="d-flex justify-content-between">
-                                                    <Card.Text className="mb-1" id="company-name"><Image id="logo" src={item.Logo}/> <a href="https://www.redhat.com"> {item.Company}</a></Card.Text>
+                                                    <Card.Text className="mb-1" id="company-name"><Image id="logo" src={item.Logo}/> <a href={item.URL}> {item.Company}</a></Card.Text>
                                                     <Card.Text>{item.Position}</Card.Text>
                                                 </Container>
                                                 <Container className="d-flex justify-content-between" id="location-date">
@@ -155,15 +155,15 @@ export function Resume() {
             <MobileView>
                 <NavBar />
                 <div id="container">
-                    <div className="d-flex align-items-center flex-column">
+                    <div className="d-flex align-items-center flex-column w-75 mx-auto">
                         <Image className="mt-2" id="headshot" src={Headshot}/>
                         <h1 className="mb-3">Dan's Resume</h1>
                         
                         {/* Education, Skills, Programming, & Tools Section */}
                         <div>
-                            <div className="align-self-start">
+                            <div>
                                 {resumeItems.map(item => (
-                                    <Card className="mb-2" style={{width: "350px", marginRight: "1rem"}}> 
+                                    <Card className="mb-2 mx-auto" style={{width: "350px"}}> 
                                         <Card.Body>
                                             <Card.Title>{item.Title}</Card.Title>
                                             <ColoredLine />
@@ -177,16 +177,14 @@ export function Resume() {
 
                             {/* Experience Section */}
                             <div className="align-self-start">
-                                <Card className="mb-2"> 
+                                <Card> 
                                     <Card.Body>
                                         <Card.Title>Experience</Card.Title>
                                         <ColoredLine />
                                         {experienceData.map(item => (
                                             <div className="d-flex flex-column mb-2">
-                                                <div className="mb-2">
-                                                    <Card.Text className="mb-1" id="company-name"><Image id="logo" src={item.Logo}/> <a href="https://www.redhat.com"> {item.Company}</a></Card.Text>
-                                                    <Card.Text>{item.Position}</Card.Text>
-                                                </div>
+                                                <Card.Text className="mb-1" id="company-name"><Image id="logo" src={item.Logo}/> <a href={item.URL}> {item.Company}</a></Card.Text>
+                                                <Card.Text className="mb-1">{item.Position}</Card.Text>
                                                 <div className="d-flex justify-content-between mb-2">
                                                     <Card.Text><FontAwesomeIcon size="1x" icon={Icon.MapMarked}/> {item.Location}</Card.Text>
                                                     <Card.Text><FontAwesomeIcon size="1x" icon={Icon.CalendarAlt}/> {item.Date}</Card.Text>
@@ -200,16 +198,14 @@ export function Resume() {
                                         ))}
                                     </Card.Body>
                                 </Card>
-                                <Card style={{width: "350px"}}> 
+                                <Card> 
                                     <Card.Body>
-                                        <Card.Title>Volunteerism</Card.Title>
+                                        <Card.Title>Volunteer Experience</Card.Title>
                                         <ColoredLine />
                                         {volunteerData.map(item => (
                                             <div className="d-flex flex-column mb-2">
-                                                <div className="mb-2">
-                                                    <Card.Text className="mb-1" id="company-name"><Image id="logo" src={item.Logo}/> <a href="https://www.redhat.com"> {item.Company}</a></Card.Text>
-                                                    <Card.Text>{item.Position}</Card.Text>
-                                                </div>
+                                                <Card.Text className="mb-1" id="company-name"><Image id="logo" src={item.Logo}/> <a href={item.URL}> {item.Company}</a></Card.Text>
+                                                <Card.Text className="mb-1">{item.Position}</Card.Text>
                                                 <div className="d-flex justify-content-between mb-2">
                                                     <Card.Text><FontAwesomeIcon size="1x" icon={Icon.MapMarked}/> {item.Location}</Card.Text>
                                                     <Card.Text><FontAwesomeIcon size="1x" icon={Icon.CalendarAlt}/> {item.Date}</Card.Text>
