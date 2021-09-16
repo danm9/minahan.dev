@@ -13,7 +13,7 @@ export function Home() {
       <MetaTags>
         <title>M.D | Home</title>
         <meta
-          name="description"
+          name="Home"
           content="This Website is designed to show Dan Minahan's Resume and Portfolio. Enjoy!"
         />
         <meta property="og:title" content="Home" />
