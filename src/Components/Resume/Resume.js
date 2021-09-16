@@ -91,17 +91,16 @@ export function Resume() {
 
   return (
     <>
-      <MetaTags>
-        <title>M.D | Resume</title>
-        <meta
-          name="Daniel Minahan's online Resume"
-          content="This Website is designed to show Dan Minahan's Resume and Portfolio. Enjoy!"
-        />
-        <meta property="og:title" content="Resume" />
-        <meta property="og:image" content="../Images/Headshot.png" />
-      </MetaTags>
-
       <BrowserView>
+        <MetaTags>
+          <title>M.D | Resume</title>
+          <meta
+            name="Daniel Minahan's online Resume"
+            content="This Website is designed to show Dan Minahan's Resume and Portfolio. Enjoy!"
+          />
+          <meta property="og:title" content="Resume" />
+          <meta property="og:image" content="../Images/Headshot.png" />
+        </MetaTags>
         <NavBar />
         <div id="container">
           <div className="d-flex align-items-center flex-column">
