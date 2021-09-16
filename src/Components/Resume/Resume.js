@@ -1,4 +1,5 @@
 import React from "react";
+import MetaTags from "react-meta-tags";
 import { NavBar } from "../NavBar/NavBar";
 import { Footer } from "../Footer/Footer";
 import { BrowserView, MobileView } from "react-device-detect";
