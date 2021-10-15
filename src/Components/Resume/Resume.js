@@ -31,7 +31,7 @@ export function Resume() {
 
   const Education = educationData.map((item) => (
     <div className="d-flex">
-      <Image id="logo" src={item.Logo} />
+      <Image id="logo" src={item.Logo} title={item.Alt} />
       <div id="college-container" className="d-flex flex-column">
         <Card.Text>
           <a href={item.URL}>{item.College}</a>
@@ -45,7 +45,7 @@ export function Resume() {
 
   const Certification = certificationData.map((item) => (
     <div className="d-flex">
-      <Image id="logo" src={item.Logo} />
+      <Image id="logo" src={item.Logo} title={item.Alt} />
       <div id="college-container" className="d-flex flex-column">
         <Card.Text>
           <a href={item.URL}>{item.Provider}</a>
@@ -69,7 +69,7 @@ export function Resume() {
   const Programming = programmingData.map((item) => (
     <Row>
       <Col className="d-flex justify-content-center">
-        <Image id="logo" src={item} />
+        <Image id="logo" src={item.Logo} title={item.Alt} />
       </Col>
     </Row>
   ));
@@ -77,7 +77,7 @@ export function Resume() {
   const Tools = toolsData.map((item) => (
     <Row>
       <Col className="d-flex justify-content-center">
-        <Image id="logo" src={item} />
+        <Image id="logo" src={item.Logo} title={item.Alt} />
       </Col>
     </Row>
   ));
