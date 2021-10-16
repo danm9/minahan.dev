@@ -52,6 +52,7 @@ export function Home() {
               style={{ color: "#0a1f63" }}
               className="mx-auto"
               icon={Icon.FileAlt}
+              title="Resume"
             />
             <h3>RESUME</h3>
           </a>
@@ -61,6 +62,7 @@ export function Home() {
               style={{ color: "#0a1f63" }}
               className="mx-auto"
               icon={Icon.LaptopCode}
+              title="Portfolio"
             />
             <h3>PORTFOLIO</h3>
           </a>

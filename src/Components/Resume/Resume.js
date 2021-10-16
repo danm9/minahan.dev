@@ -105,7 +105,12 @@ export function Resume() {
         <NavBar />
         <div id="container">
           <div className="d-flex align-items-center flex-column">
-            <Image className="mt-2" id="headshot" src={Headshot} />
+            <Image
+              className="mt-2"
+              id="headshot"
+              src={Headshot}
+              title="Dan Minahan"
+            />
             <h1 className="mb-3 fw-bold">Dan's Resume</h1>
 
             {/* Education, Skills, Programming, & Tools Section */}
@@ -132,7 +137,11 @@ export function Resume() {
                       <div>
                         <Container className="d-flex justify-content-between">
                           <Card.Text className="mb-1" id="company-name">
-                            <Image id="logo" src={item.Logo} />{" "}
+                            <Image
+                              id="logo"
+                              src={item.Logo}
+                              title={item.Company}
+                            />{" "}
                             <a href={item.URL}> {item.Company}</a>
                           </Card.Text>
                           <Card.Text>
@@ -170,7 +179,11 @@ export function Resume() {
                       <div>
                         <Container className="d-flex justify-content-between">
                           <Card.Text className="mb-1" id="company-name">
-                            <Image id="logo" src={item.Logo} />{" "}
+                            <Image
+                              id="logo"
+                              src={item.Logo}
+                              title={item.Company}
+                            />{" "}
                             <a href={item.URL}> {item.Company}</a>
                           </Card.Text>
                           <Card.Text>{item.Position}</Card.Text>
@@ -235,7 +248,11 @@ export function Resume() {
                     {experienceData.map((item) => (
                       <div className="d-flex flex-column mb-2">
                         <Card.Text className="mb-1" id="company-name">
-                          <Image id="logo" src={item.Logo} />{" "}
+                          <Image
+                            id="logo"
+                            src={item.Logo}
+                            title={item.Company}
+                          />{" "}
                           <a href={item.URL}> {item.Company}</a>
                         </Card.Text>
                         <Card.Text className="mb-1">{item.Position}</Card.Text>
@@ -266,7 +283,11 @@ export function Resume() {
                     {volunteerData.map((item) => (
                       <div className="d-flex flex-column mb-2">
                         <Card.Text className="mb-1" id="company-name">
-                          <Image id="logo" src={item.Logo} />{" "}
+                          <Image
+                            id="logo"
+                            src={item.Logo}
+                            title={item.Company}
+                          />{" "}
                           <a href={item.URL}> {item.Company}</a>
                         </Card.Text>
                         <Card.Text className="mb-1">{item.Position}</Card.Text>

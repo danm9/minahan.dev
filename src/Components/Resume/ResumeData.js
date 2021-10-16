@@ -166,7 +166,7 @@ export const experienceData = [
     URL: "www.taxslayercorp.com",
   },
   {
-    Company: "Zapata Technology, Inc. ",
+    Company: "Zapata Technology, Inc.",
     Position: "VP, Intelligence & Strategic Programs    ",
     Location: "Augusta, GA",
     Date: "October 2016 – July 2018",
@@ -184,6 +184,7 @@ export const experienceData = [
       </li>,
     ],
     URL: "https://www.zapatatechnology.com/",
+    Alt: "Zapata Technology, Inc",
   },
   {
     Company: "Minutemen Consulting Group",

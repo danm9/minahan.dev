@@ -28,7 +28,7 @@ export function MinahanCarousel() {
             id="img"
             src={item.pic}
             className="d-block w-100 text-light"
-            alt={item.altCaption}
+            title={item.altCaption}
           />
           <Carousel.Caption>
             <h3 className="fw-bold">{item.altCaption}</h3>
