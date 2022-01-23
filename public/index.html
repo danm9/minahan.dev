@@ -5,10 +5,8 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Website created for Dan Minahan"
-    />
+    <meta property="og:image" content=”%PUBLIC_URL%/images/Headshot.png” />
+    <meta name="description" content="Website created for Dan Minahan" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Minahan.dev</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -18,7 +16,7 @@
     <div id="root"></div>
     <script>
       if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
+        window.netlifyIdentity.on("init", (user) => {
           if (!user) {
             window.netlifyIdentity.on("login", () => {
               document.location.href = "/admin/";
