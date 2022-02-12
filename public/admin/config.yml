@@ -55,7 +55,26 @@ collections:
     folder: "site/content/education"
     create: true
     widget: "list"
+    add_to_top: true
     fields:
       - {label: "College", name: college, widget: string, default: "University or College"}
       - {label: "Program", name: program, widget: string, default: "e.g., MBA"}
-      - {label: "Image", name: "thumbnail", widget: "image"}
+      - {label: "Image", name: "companyThumbnail", widget: "image"}
+  
+  - label: "Work History"
+    name: "workHistory"
+    folder: "site/content/workHistory"
+    create: true
+    widget: "list"
+        add_to_top: true
+    fields:
+      - {label: "Company", name: company, widget: string, default: "ACME, Inc"}
+      - {label: "Company Image", name: "companyThumbnail", widget: "image"}
+      - {label: "Company URL", name: companyURL, widget: string, default: "www.acme.com"}
+      - {label: "Location", name: companyLocation, widget: string, default: "Boston or Remote"}
+      - {label: "Dates Employed", name: companyDates, widget: string, default: "March 2020-Present"}
+      - label: "Work Bullets"
+        name: workBullets
+        widget: list
+        field: 
+          - {label: "Work Bullet", name: workBullet, widget: string, default: "Responsible for Being Awesome"}
