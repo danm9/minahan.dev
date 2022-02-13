@@ -4,12 +4,12 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { Home } from "./Components/Home/Home.js";
 import { Portfolio } from "./Components/Portfolio/Portfolio.js";
 import { Resume } from "./Components/Resume/Resume.js";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const tagManagerArgs = {
-    gtmId: 'GTM-5C7STSC'
-  }
+    gtmId: "GTM-5C7STSC",
+  };
 
   TagManager.initialize(tagManagerArgs);
 
