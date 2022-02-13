@@ -103,13 +103,13 @@ collections:
           widget: string,
           default: "March 2020-Present",
         }
-      - label: "Work Bullets"
-        name: workBullets
-        widget: list
-        fields:
+      - {label: "Work Bullets",
+        name: workBullets,
+        widget: list,
+        field:
           - {
               label: "Work Bullet",
               name: workBullet,
               widget: string,
               default: "Responsible for Being Awesome",
-            }
+            }}
