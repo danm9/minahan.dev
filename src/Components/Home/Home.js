@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import MetaTags from "react-meta-tags";
 import { NavBar } from "../NavBar/NavBar";
 import { MinahanCarousel } from "../Images/Carousel/MinahanCarousel";
@@ -6,8 +6,21 @@ import { Footer } from "../Footer/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Icon from "../Images/Icons/Icon.js";
 import "./Home.css";
+import CMSData from "";
 
 export function Home() {
+  const [resumeCMSData, setResumeCMSData] = useState();
+
+  useEffect(() => {
+    fetchResumeCMSData();
+  }, []);
+  useEffect(() => {}, [resumeCMSData]);
+
+  const fetchResumeCMSData = async () => {
+    const response = await axios(newsApiBusiness);
+    setResumeCMSData(response.data);
+  };
+
   return (
     <>
       <MetaTags>
@@ -41,6 +54,7 @@ export function Home() {
             of work.
           </p>
         </div>
+        <p></p>
 
         <div
           id="button-group"
