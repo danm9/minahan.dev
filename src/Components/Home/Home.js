@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import MetaTags from "react-meta-tags";
+// import MetaTags from "react-meta-tags";
 import { NavBar } from "../NavBar/NavBar";
 import { MinahanCarousel } from "../Images/Carousel/MinahanCarousel";
 import { Footer } from "../Footer/Footer";
@@ -23,7 +23,7 @@ export function Home() {
 
   return (
     <>
-      <MetaTags>
+      <Helmet>
         <title>M.D | Home</title>
         <meta
           name="Home"
@@ -31,7 +31,7 @@ export function Home() {
         />
         <meta property="og:title" content="Home" />
         <meta property="og:image" content="../Images/Headshot.png" />
-      </MetaTags>
+      </Helmet>
 
       <NavBar />
       <div id="container">
