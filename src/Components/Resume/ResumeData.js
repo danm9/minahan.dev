@@ -3,7 +3,7 @@ import Icon from "../Images/Icons/Icon.js";
 
 export const educationData = [
   {
-    College: "University of Georgia (2022)",
+    College: "University of Georgia '22",
     Program: "Master of Business & Technology",
     Logo: Logo.UGA,
     URL: "www.uga.edu",
