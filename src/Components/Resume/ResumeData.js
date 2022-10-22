@@ -106,10 +106,29 @@ export const toolsData = [
 
 export const experienceData = [
   {
+    Company: "Testlio",
+    Position: "Director, Business Software Practice",
+    Location: "Remote",
+    Date: "October 2021 - Present",
+    Logo: Logo.Testlio,
+    Description: [
+      <li>
+        Direct and manage a portfolio of accounts that fall within the Business
+        Software Practice.
+      </li>,
+      <li>
+        Responsible for the growth of existing accounts, support to sales for
+        new accounts, and growth of the team, consisting of Testing Managers,
+        Testing Coordinators, and Engagement Managers.
+      </li>,
+    ],
+    URL: "www.testlio.com",
+  },
+  {
     Company: "Red Hat",
     Position: "Senior Program Manager",
     Location: "Remote",
-    Date: "August 2020 - Present",
+    Date: "August 2020 - October 2021",
     Logo: Logo.RedHat,
     Description: [
       <li>
@@ -270,7 +289,7 @@ export const volunteerData = [
     Company: "AFCEA",
     Position: "Small Business Chair, Augusta Fort-Gordon Chapter",
     Location: "Augusta, GA",
-    Date: "January 2017 - Present",
+    Date: "January 2017 - July 2018",
     Logo: Logo.AFCEA,
     Description: [
       <li>

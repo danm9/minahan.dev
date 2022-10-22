@@ -14,7 +14,7 @@ export const projectData = [
       <Image id="logo" src={Logo.Netlify} title="Netlify" />,
     ],
     Github: "https://github.com/danm9/minahan.dev",
-    URL: "https://danm9.github.io/minahan.dev/",
+    URL: "https://www.minahan.dev",
   },
   {
     Project: "Velocity Tools",
@@ -61,7 +61,7 @@ export const projectData = [
       <Image id="logo" src={Logo.Cypress} title="Cypress" />,
     ],
     Github: "https://github.com/danm9/blue-sky-frontend",
-    URL: "https://blueskyappv2.netlify.app/",
+    URL: "https://blueskydemoapp.netlify.app/",
   },
   {
     Project: "Kloud Komputing (UGA Final)",

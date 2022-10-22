@@ -47,6 +47,7 @@ import PMIACP from "./PMIACP.png";
 import IPMA from "./IPMA.png";
 import Express from "./Express.png";
 import Cypress from "./Cypress.png";
+import Testlio from "./Testlio.png";
 
 const Logo = {
   AWS: AWS,
@@ -99,6 +100,7 @@ const Logo = {
   IPMA: IPMA,
   Express: Express,
   Cypress: Cypress,
+  Testlio: Testlio,
 };
 
 export default Logo;
