@@ -133,7 +133,7 @@ export const experienceData = [
     Description: [
       <li>
         Manage Projects and Programs in the Financial Services Industry, ranging
-        from $250k projects to >$9m per year programs encompassing many
+        from $250k projects to ~$9m per year programs encompassing many
         projects.
       </li>,
       <li>

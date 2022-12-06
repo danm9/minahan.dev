@@ -44,10 +44,9 @@ export const projectData = [
       <Image id="logo" src={Logo.Postman} title="Postman" />,
     ],
     Github: "https://github.com/danm9/blue-sky-frontend",
-    URL: "",
   },
   {
-    Project: "Blue Sky App",
+    Project: "Blue Sky App (Backend Service Turned off)",
     Description:
       "For our Phase 2 of the Capstone, I converted the API from Java/Spring to NodeJs/Express and moved from MySQL to MongoDB to make our app a full MERN stack.",
     Technologies: [

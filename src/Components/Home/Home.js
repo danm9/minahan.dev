@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import MetaTags from "react-meta-tags";
 import { NavBar } from "../NavBar/NavBar";
 import { MinahanCarousel } from "../Images/Carousel/MinahanCarousel";
