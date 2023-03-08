@@ -10,7 +10,6 @@ import Headshot from "../Images/Headshot.png";
 import {
   experienceData,
   volunteerData,
-  toolsData,
   programmingData,
   educationData,
   certificationData,
@@ -74,20 +73,11 @@ export function Resume() {
     </Row>
   ));
 
-  const Tools = toolsData.map((item) => (
-    <Row>
-      <Col className="d-flex justify-content-center">
-        <Image id="logo" src={item.Logo} title={item.Alt} />
-      </Col>
-    </Row>
-  ));
-
   const resumeItems = [
     { Title: "Education", Items: Education, Style: "" },
-    { Title: "Certification", Items: Certification, Style: "" },
+    { Title: "Certifications", Items: Certification, Style: "" },
     { Title: "Skills", Items: Skills, Style: "" },
-    { Title: "Programming", Items: Programming, Style: "three-col" },
-    { Title: "Tools", Items: Tools, Style: "three-col" },
+    { Title: "Programming & Tools", Items: Programming, Style: "three-col" },
   ];
 
   return (

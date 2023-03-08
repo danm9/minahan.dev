@@ -87,14 +87,12 @@ export const programmingData = [
   { Logo: Logo.Git, Alt: "Git" },
   { Logo: Logo.Eclipse, Alt: "Eclipse" },
   { Logo: Logo.Netlify, Alt: "Netlify" },
-];
-
-export const toolsData = [
   { Logo: Logo.Fedora, Alt: "Fedora" },
   { Logo: Logo.RedHat, Alt: "RedHat" },
   { Logo: Logo.AWS, Alt: "AWS" },
   { Logo: Logo.Github, Alt: "Github" },
   { Logo: Logo.Heroku, Alt: "Heroku" },
+  { Logo: Logo.Netlify, Alt: "Netlify" },
   { Logo: Logo.Jira, Alt: "Jira" },
   { Logo: Logo.Miro, Alt: "Miro" },
   { Logo: Logo.Postman, Alt: "Postman" },
@@ -106,10 +104,24 @@ export const toolsData = [
 
 export const experienceData = [
   {
+    Company: "Blankfactor",
+    Position: "Technical Program Manager",
+    Location: "Remote",
+    Date: "March 2023 - Present",
+    Logo: Logo.Blankfactor,
+    Description: [
+      <li>
+        Responsible for delivering technical projects and programs to clients
+        within the Financial Services and FinTech space.
+      </li>,
+    ],
+    URL: "https://blankfactor.com/",
+  },
+  {
     Company: "Testlio",
     Position: "Director, Business Software Practice",
     Location: "Remote",
-    Date: "October 2021 - Present",
+    Date: "October 2021 - March 2023",
     Logo: Logo.Testlio,
     Description: [
       <li>
@@ -259,7 +271,7 @@ export const experienceData = [
 export const volunteerData = [
   {
     Company: "PMI Augusta Aiken",
-    Position: "President",
+    Position: "Past-President",
     Location: "Augusta, GA",
     Date: "December 2016 - Present",
     Logo: Logo.PMIAA,

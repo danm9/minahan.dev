@@ -9,18 +9,6 @@ import "./Home.css";
 // import CMSData from "";
 
 export function Home() {
-  // const [resumeCMSData, setResumeCMSData] = useState();
-
-  // useEffect(() => {
-  //   fetchResumeCMSData();
-  // }, []);
-  // useEffect(() => {}, [resumeCMSData]);
-
-  // const fetchResumeCMSData = async () => {
-  //   const response = await axios(newsApiBusiness);
-  //   setResumeCMSData(response.data);
-  // };
-
   return (
     <>
       <MetaTags>
@@ -68,7 +56,7 @@ export function Home() {
               icon={Icon.FileAlt}
               title="Resume"
             />
-            <h3>RESUME</h3>
+            <p className="fs-5">RESUME</p>
           </a>
           <a id="button" href="/portfolio" className="text-center">
             <FontAwesomeIcon
@@ -78,7 +66,7 @@ export function Home() {
               icon={Icon.LaptopCode}
               title="Portfolio"
             />
-            <h3>PORTFOLIO</h3>
+            <p className="fs-5">PORTFOLIO</p>
           </a>
         </div>
       </div>

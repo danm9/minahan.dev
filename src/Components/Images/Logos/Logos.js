@@ -48,6 +48,7 @@ import IPMA from "./IPMA.png";
 import Express from "./Express.png";
 import Cypress from "./Cypress.png";
 import Testlio from "./Testlio.png";
+import Blankfactor from "./Blankfactor.png";
 
 const Logo = {
   AWS: AWS,
@@ -101,6 +102,7 @@ const Logo = {
   Express: Express,
   Cypress: Cypress,
   Testlio: Testlio,
+  Blankfactor: Blankfactor,
 };
 
 export default Logo;
