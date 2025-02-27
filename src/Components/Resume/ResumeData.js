@@ -122,7 +122,7 @@ export const experienceData = [
   },
   {
     Company: "Blankfactor",
-    Position: "Technical Program Manager",
+    Position: "IT Technical Project Manager",
     Location: "Remote",
     Date: "March 2023 - March 2024",
     Logo: Logo.Blankfactor,
