@@ -63,10 +63,6 @@ export const skillsData = [
     Skill: "Engineering Management",
     Icon: Icon.CodeBranch,
   },
-  {
-    Skill: "Programming",
-    Icon: Icon.Code,
-  },
 ];
 
 export const programmingData = [
@@ -92,7 +88,6 @@ export const programmingData = [
   { Logo: Logo.AWS, Alt: "AWS" },
   { Logo: Logo.Github, Alt: "Github" },
   { Logo: Logo.Heroku, Alt: "Heroku" },
-  { Logo: Logo.Netlify, Alt: "Netlify" },
   { Logo: Logo.Jira, Alt: "Jira" },
   { Logo: Logo.Miro, Alt: "Miro" },
   { Logo: Logo.Postman, Alt: "Postman" },
@@ -105,14 +100,43 @@ export const programmingData = [
 export const experienceData = [
   {
     Company: "Blankfactor",
-    Position: "Technical Program Manager",
+    Position: "Client Partner",
     Location: "Remote",
-    Date: "March 2023 - Present",
+    Date: "April 2024 - Present",
     Logo: Logo.Blankfactor,
     Description: [
       <li>
-        Responsible for delivering technical projects and programs to clients
-        within the Financial Services and FinTech space.
+        Lead the delivery of high-impact technical projects and programs for
+        Financial Services and FinTech clients, managing $12M+ in annual
+        consulting services. Projects include digital banking solutions, payment
+        systems modernization, fraud mitigation systems, reliability and
+        scaling, and regulatory compliance.
+      </li>,
+      <li>
+        Manage project and program managers, oversee resourcing, financial
+        tracking, and contractor invoicing, ensuring financial transparency and
+        alignment with project budgets and client expectations.
+      </li>,
+    ],
+    URL: "https://blankfactor.com/",
+  },
+  {
+    Company: "Blankfactor",
+    Position: "Technical Program Manager",
+    Location: "Remote",
+    Date: "March 2023 - March 2024",
+    Logo: Logo.Blankfactor,
+    Description: [
+      <li>
+        Manage a portfolio of 10-15 concurrent projects and workstreams,
+        overseeing resourcing, contractor invoicing, and performance
+        evaluations.
+      </li>,
+      <li>
+        Successfully delivered a multi-phase implementation of Workday Human
+        Resource Management (HRM) to optimize financial and human resource
+        management for internal operations, coordinating with vendors and
+        internal teams to achieve a smooth deployment.
       </li>,
     ],
     URL: "https://blankfactor.com/",
@@ -125,13 +149,14 @@ export const experienceData = [
     Logo: Logo.Testlio,
     Description: [
       <li>
-        Direct and manage a portfolio of accounts that fall within the Business
-        Software Practice.
+        Managed and grew a portfolio of B2B accounts, contributing to an 88%
+        business growth rate in 2022 by advising on Software Development Life
+        Cycle (SDLC) strategies.
       </li>,
       <li>
-        Responsible for the growth of existing accounts, support to sales for
-        new accounts, and growth of the team, consisting of Testing Managers,
-        Testing Coordinators, and Engagement Managers.
+        Partnered with sales teams to expand new and existing accounts, while
+        building and leading a high-performance client services team of
+        engagement managers, and testing managers.
       </li>,
     ],
     URL: "www.testlio.com",
@@ -144,17 +169,17 @@ export const experienceData = [
     Logo: Logo.RedHat,
     Description: [
       <li>
-        Manage Projects and Programs in the Financial Services Industry, ranging
-        from $250k projects to ~$9m per year programs encompassing many
-        projects.
+        Directed high-impact financial services programs ranging from $250K to
+        $9M, applying agile methodologies to optimize project outcomes.
       </li>,
       <li>
-        Mentor and support project managers, technical leads, and all other
-        members of program and projects.
+        Mentored project managers and technical leads on agile and project
+        management best practices to enhance team performance and client
+        satisfaction.
       </li>,
       <li>
-        Coordinate cross-team collaboration with resource management, sales,
-        support, services, finance, and the PMO.
+        Coordinated cross-functional collaboration with resource management,
+        sales, finance, and the PMO to streamline program delivery.
       </li>,
     ],
     URL: "www.redhat.com",
@@ -181,17 +206,13 @@ export const experienceData = [
     Logo: Logo.TaxSlayer,
     Description: [
       <li>
-        Managed TaxSlayer’s software development teams, comprised of ~30
-        developers on six teams, who build and maintain TaxSlayer’s consumer and
-        professional tax products as well as two business applications
-        (LegalSpark and Workful).
+        Managed six software development teams (~30 developers) responsible for
+        building and maintaining TaxSlayer's tax products and business
+        applications (LegalSpark, Workful).
       </li>,
       <li>
-        Responsibilities included the resourcing of strategic projects that
-        drive innovation and revenue for TaxSlayer, the overall career
-        development of each team, and working with internal stakeholders, other
-        departments within TaxSlayer, and the engineering team to ensure
-        communication on projects were successful
+        Implemented and standardized agile methodologies across development
+        teams to improve efficiency and product delivery timelines.
       </li>,
     ],
     URL: "www.taxslayercorp.com",
@@ -204,38 +225,18 @@ export const experienceData = [
     Logo: Logo.Zapata,
     Description: [
       <li>
-        Responsible for the growth of Zapata’s Intelligence and Strategic
-        programs within DoD markets. Responsibilities included opportunity
-        identification, teaming, and managing the capture and proposal process.{" "}
+        Led the growth of Zapata’s DoD Intelligence and Strategic programs,
+        overseeing capture processes, proposal management, and opportunity
+        identification.
       </li>,
       <li>
-        Served as Program Manager for the first prime government contract for
-        Zapata, which was a remote program. Responsible for program execution,
-        P&L, resourcing, and government communication.{" "}
+        Served as Program Manager for a $4M custom software development program,
+        managing P&L, resource allocation, and government stakeholder
+        communications.
       </li>,
     ],
     URL: "https://www.zapatatechnology.com/",
     Alt: "Zapata Technology, Inc",
-  },
-  {
-    Company: "Minutemen Consulting Group",
-    Position: "President & Founder",
-    Location: "Evans, GA",
-    Date: "July 2016 – July 2018",
-    Logo: Logo.Minutemen,
-    Description: [
-      <li>
-        Minutemen was a project management consulting company that executed
-        three contracts. The first contract involved implementing agile
-        processes for a Real Estate company based in Georgia. A training program
-        was developed and delivered to aid in understanding agile. The second
-        and third contracts were for a large technology firm to develop a
-        request for proposal for project management software and to develop
-        processes for the innovation and design department to streamline
-        projects.
-      </li>,
-    ],
-    URL: "www.minahan.dev",
   },
   {
     Company: "Booz | Allen | Hamilton",
@@ -245,14 +246,13 @@ export const experienceData = [
     Logo: Logo.BoozAllen,
     Description: [
       <li>
-        Managed up to 20 full-time equivalent (FTE) positions that provide
-        intelligence products and training.
+        Managed a 20-member team providing intelligence products and IT training
+        solutions to government clients.
       </li>,
       <li>
-        Managed a special projects team that delivered tailored information
-        technology (IT) and analytical products to government clients. The
-        products included web development upgrades, data science products, data
-        analytics, capacity analyses, and trend analyses.
+        Delivered custom IT and analytical solutions for government clients
+        through a specialized projects team, ensuring tailored outcomes to meet
+        mission-critical needs.
       </li>,
     ],
     URL: "https://www.boozallen.com/",
